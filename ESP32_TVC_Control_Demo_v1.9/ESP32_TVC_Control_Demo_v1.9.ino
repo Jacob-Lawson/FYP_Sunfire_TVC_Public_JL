@@ -10,8 +10,8 @@ MPU6050 mpu;
 TicI2C tic1(14); // Define Tic1 object for I2C communication -- X axis TIC249
 //TicI2C tic2(15); // Define Tic1 object for I2C communication -- Y axis TIC249
 
-const char* existingSSID = "SHELL-4657C8"; // SSID of your existing network
-const char* existingPassword = "fawDryV4TYdp"; // Password of your existing network
+const char* existingSSID = ""; // SSID of your existing network
+const char* existingPassword = ""; // Password of your existing network
 
 const char* apSSID = "ESP32AP"; // SSID for the ESP32 Access Point
 const char* apPassword = "password"; // Password for the ESP32 Access Point
